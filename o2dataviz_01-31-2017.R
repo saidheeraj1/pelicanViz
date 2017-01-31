@@ -1,7 +1,5 @@
 ############# Import data from ReDCap
 
-dataWide <- read.csv("dataWide.csv", stringsAsFactors = F)
-dataWide <- dataWide[!is.na(dataWide$bs_dt_nurse_call),]
 
 ################################## Data Prep for Viz
 library(reshape2)
