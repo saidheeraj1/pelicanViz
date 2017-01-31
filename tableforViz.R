@@ -1,3 +1,7 @@
+# TESTING GIT COMMIT
+test= rnorm(1000)
+test2=rnorm(1000)
+
 getTable <- function(id){
   coverage <- dataWide[dataWide$visit_pelican_id %in% id,]
   sc1Vars <- c("visit_pelican_id", "bs_dt_nurse_call","bs_hmvs_st_o2_dt","out_st_o2_dt.30","out_st_o2_dt.60","out_st_o2_dt.90",
