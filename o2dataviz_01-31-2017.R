@@ -152,3 +152,5 @@ source("https://github.com/saidheeraj1/pelicanViz/raw/master/tableforViz.R")
 ################ To get visualization
 
 getViz(376)
+
+test3 = rnorm(1:10)
